@@ -267,3 +267,58 @@
 {"time":"2026-05-12T16:34:04.790326+00:00","level":"INFO","msg":"  Host / Port     : 0.0.0.0:8000"}
 {"time":"2026-05-12T16:34:04.790388+00:00","level":"INFO","msg":"MediAssist API ready ✓"}
 {"time":"2026-05-12T16:34:04.790463+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-12T22:52:22.875881+00:00","level":"INFO","msg":"Loading embedding model: sentence-transformers/all-MiniLM-L6-v2 ..."}
+{"time":"2026-05-12T22:52:29.383629+00:00","level":"WARNING","msg":"Embedding model could not load ([WinError 1114] A dynamic link library (DLL) initialization routine failed. Error loading "C:\Users\blyez\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\lib\c10.dll" or one of its dependencies.). Falling back to KB-vector search via pre-stored embeddings."}
+{"time":"2026-05-12T22:52:29.389676+00:00","level":"WARNING","msg":"encode_query: model unavailable, returning zero vector (BM25 mode)"}
+{"time":"2026-05-12T22:54:48.385296+00:00","level":"INFO","msg":"Loading embedding model: sentence-transformers/all-MiniLM-L6-v2 ..."}
+{"time":"2026-05-12T22:54:53.815587+00:00","level":"WARNING","msg":"Embedding model could not load ([WinError 1114] A dynamic link library (DLL) initialization routine failed. Error loading "C:\Users\blyez\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\lib\c10.dll" or one of its dependencies.). Falling back to KB-vector search via pre-stored embeddings."}
+{"time":"2026-05-12T22:54:53.816883+00:00","level":"WARNING","msg":"encode_query: model unavailable, returning zero vector (BM25 mode)"}
+{"time":"2026-05-12T22:57:43.672895+00:00","level":"INFO","msg":"Loading embedding model: sentence-transformers/all-MiniLM-L6-v2 ..."}
+{"time":"2026-05-12T22:57:57.294407+00:00","level":"WARNING","msg":"Embedding model could not load (name 'nn' is not defined). Falling back to KB-vector search via pre-stored embeddings."}
+{"time":"2026-05-12T22:57:57.294915+00:00","level":"WARNING","msg":"encode_query: model unavailable, returning zero vector (BM25 mode)"}
+{"time":"2026-05-12T22:58:36.480433+00:00","level":"INFO","msg":"Loading embedding model: sentence-transformers/all-MiniLM-L6-v2 ..."}
+{"time":"2026-05-12T22:58:44.608553+00:00","level":"WARNING","msg":"Embedding model could not load (name 'nn' is not defined). Falling back to KB-vector search via pre-stored embeddings."}
+{"time":"2026-05-12T22:58:44.609210+00:00","level":"WARNING","msg":"encode_query: model unavailable, returning zero vector (BM25 mode)"}
+{"time":"2026-05-12T23:01:03.369190+00:00","level":"INFO","msg":"Loading embedding model: sentence-transformers/all-MiniLM-L6-v2 ..."}
+{"time":"2026-05-12T23:01:05.710623+00:00","level":"WARNING","msg":"Embedding model could not load ([WinError 126] The specified module could not be found. Error loading "C:\Users\blyez\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\lib\fbgemm.dll" or one of its dependencies.). Falling back to KB-vector search via pre-stored embeddings."}
+{"time":"2026-05-12T23:01:05.710623+00:00","level":"WARNING","msg":"encode_query: model unavailable, returning zero vector (BM25 mode)"}
+{"time":"2026-05-12T23:16:56.950688+00:00","level":"INFO","msg":"Loading embedding model: sentence-transformers/all-MiniLM-L6-v2 ..."}
+{"time":"2026-05-12T23:16:56.950688+00:00","level":"WARNING","msg":"Embedding model could not load (No module named 'sentence_transformers'). Falling back to KB-vector search via pre-stored embeddings."}
+{"time":"2026-05-12T23:16:56.950688+00:00","level":"WARNING","msg":"encode_query: model unavailable, returning zero vector (BM25 mode)"}
+{"time":"2026-05-12T23:20:58.169393+00:00","level":"INFO","msg":"Loading embedding model: sentence-transformers/all-MiniLM-L6-v2 ..."}
+{"time":"2026-05-12T23:21:03.394722+00:00","level":"WARNING","msg":"Embedding model could not load ([WinError 1114] A dynamic link library (DLL) initialization routine failed. Error loading "C:\Users\blyez\Desktop\BACKEND ARCHITECT\.venv\Lib\site-packages\torch\lib\c10.dll" or one of its dependencies.). Falling back to KB-vector search via pre-stored embeddings."}
+{"time":"2026-05-12T23:21:03.394722+00:00","level":"WARNING","msg":"encode_query: model unavailable, returning zero vector (BM25 mode)"}
+{"time":"2026-05-12T23:28:02.148983+00:00","level":"INFO","msg":"Loading knowledge base from ChromaDB artefacts..."}
+{"time":"2026-05-12T23:28:02.158615+00:00","level":"INFO","msg":"Loaded 1862 vectors from HNSW binary"}
+{"time":"2026-05-12T23:28:02.197137+00:00","level":"INFO","msg":"Loaded 1862 rows from SQLite"}
+{"time":"2026-05-12T23:28:02.204454+00:00","level":"INFO","msg":"Knowledge base ready: 1862 chunks, matrix (1862, 384), loaded in 53ms ✓"}
+{"time":"2026-05-12T23:28:37.250485+00:00","level":"INFO","msg":"Building BM25 index from KB texts..."}
+{"time":"2026-05-12T23:29:06.820204+00:00","level":"INFO","msg":"Loading embedding model: sentence-transformers/all-MiniLM-L6-v2 ..."}
+{"time":"2026-05-12T23:29:11.230630+00:00","level":"WARNING","msg":"Embedding model could not load ([WinError 1114] A dynamic link library (DLL) initialization routine failed. Error loading "C:\Users\blyez\Desktop\BACKEND ARCHITECT\.venv\Lib\site-packages\torch\lib\c10.dll" or one of its dependencies.). Falling back to KB-vector search via pre-stored embeddings."}
+{"time":"2026-05-12T23:29:11.261602+00:00","level":"WARNING","msg":"encode_query: model unavailable, returning zero vector (BM25 mode)"}
+{"time":"2026-05-12T23:29:45.163625+00:00","level":"INFO","msg":"Loading embedding model: sentence-transformers/all-MiniLM-L6-v2 ..."}
+{"time":"2026-05-12T23:29:49.474147+00:00","level":"WARNING","msg":"Embedding model could not load ([WinError 1114] A dynamic link library (DLL) initialization routine failed. Error loading "C:\Users\blyez\Desktop\BACKEND ARCHITECT\.venv\Lib\site-packages\torch\lib\c10.dll" or one of its dependencies.). Falling back to KB-vector search via pre-stored embeddings."}
+{"time":"2026-05-12T23:30:11.450804+00:00","level":"INFO","msg":"Loading embedding model: sentence-transformers/all-MiniLM-L6-v2 ..."}
+{"time":"2026-05-12T23:30:15.729431+00:00","level":"WARNING","msg":"Embedding model could not load ([WinError 1114] A dynamic link library (DLL) initialization routine failed. Error loading "C:\Users\blyez\Desktop\BACKEND ARCHITECT\.venv\Lib\site-packages\torch\lib\c10.dll" or one of its dependencies.). Falling back to KB-vector search via pre-stored embeddings."}
+{"time":"2026-05-12T23:30:15.734283+00:00","level":"INFO","msg":"Loading knowledge base from ChromaDB artefacts..."}
+{"time":"2026-05-12T23:30:15.742972+00:00","level":"INFO","msg":"Loaded 1862 vectors from HNSW binary"}
+{"time":"2026-05-12T23:30:15.773939+00:00","level":"INFO","msg":"Loaded 1862 rows from SQLite"}
+{"time":"2026-05-12T23:30:15.782238+00:00","level":"INFO","msg":"Knowledge base ready: 1862 chunks, matrix (1862, 384), loaded in 47ms ✓"}
+{"time":"2026-05-12T23:30:15.783947+00:00","level":"WARNING","msg":"encode_query: model unavailable, returning zero vector (BM25 mode)"}
+{"time":"2026-05-12T23:30:15.786531+00:00","level":"INFO","msg":"query_chroma: returned 10 chunks in 1ms (top_score=0.0)"}
+{"time":"2026-05-12T23:30:15.787515+00:00","level":"INFO","msg":"Building BM25 index from KB texts..."}
+{"time":"2026-05-12T23:30:15.810448+00:00","level":"INFO","msg":"BM25 index built: 1862 docs in 25ms ✓"}
+{"time":"2026-05-12T23:30:15.815427+00:00","level":"INFO","msg":"rerank: 10 vector + 10 BM25 → 5 merged (top_k=5)"}
+{"time":"2026-05-12T23:30:15.815427+00:00","level":"INFO","msg":"retrieve_chunks: query_len=28  enc=2ms  vec=1ms  bm25=28ms  total=32ms  returned=5 chunks"}
+{"time":"2026-05-12T23:31:07.832265+00:00","level":"INFO","msg":"Loading embedding model: sentence-transformers/all-MiniLM-L6-v2 ..."}
+{"time":"2026-05-12T23:31:12.115601+00:00","level":"WARNING","msg":"Embedding model could not load ([WinError 1114] A dynamic link library (DLL) initialization routine failed. Error loading "C:\Users\blyez\Desktop\BACKEND ARCHITECT\.venv\Lib\site-packages\torch\lib\c10.dll" or one of its dependencies.). Falling back to KB-vector search via pre-stored embeddings."}
+{"time":"2026-05-12T23:31:12.120831+00:00","level":"INFO","msg":"Loading knowledge base from ChromaDB artefacts..."}
+{"time":"2026-05-12T23:31:12.128366+00:00","level":"INFO","msg":"Loaded 1862 vectors from HNSW binary"}
+{"time":"2026-05-12T23:31:12.150154+00:00","level":"INFO","msg":"Loaded 1862 rows from SQLite"}
+{"time":"2026-05-12T23:31:12.150154+00:00","level":"INFO","msg":"Knowledge base ready: 1862 chunks, matrix (1862, 384), loaded in 36ms ✓"}
+{"time":"2026-05-12T23:31:12.159240+00:00","level":"WARNING","msg":"encode_query: model unavailable, returning zero vector (BM25 mode)"}
+{"time":"2026-05-12T23:31:12.160954+00:00","level":"INFO","msg":"query_chroma: returned 10 chunks in 1ms (top_score=0.0)"}
+{"time":"2026-05-12T23:31:12.161952+00:00","level":"INFO","msg":"Building BM25 index from KB texts..."}
+{"time":"2026-05-12T23:31:12.184468+00:00","level":"INFO","msg":"BM25 index built: 1862 docs in 24ms ✓"}
+{"time":"2026-05-12T23:31:12.184468+00:00","level":"INFO","msg":"rerank: 10 vector + 10 BM25 → 5 merged (top_k=5)"}
+{"time":"2026-05-12T23:31:12.188403+00:00","level":"INFO","msg":"retrieve_chunks: query_len=14  enc=1ms  vec=1ms  bm25=25ms  total=29ms  returned=5 chunks"}

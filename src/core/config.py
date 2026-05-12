@@ -25,6 +25,9 @@ class Settings(BaseSettings):
     OLLAMA_EMBED_MODEL: str = "nomic-embed-text"
     OLLAMA_CHAT_MODEL: str = "llama3"
 
+    EMBEDDING_MODEL: str = "sentence-transformers/all-MiniLM-L6-v2"
+    EMBEDDING_DIMENSION: int = 384
+
     CHROMA_DB_PATH: str = "./knowledge_base/chroma_db"
     CHROMA_COLLECTION_NAME: str = "mediassist_stg"
 
