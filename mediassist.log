@@ -1,0 +1,269 @@
+{"time":"2026-05-07T13:54:34.655575+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-07T13:54:34.657350+00:00","level":"INFO","msg":"MediAssist API starting up"}
+{"time":"2026-05-07T13:54:34.657350+00:00","level":"INFO","msg":"  LLM provider    : openai"}
+{"time":"2026-05-07T13:54:34.657350+00:00","level":"INFO","msg":"  ChromaDB path   : ./knowledge_base/chroma_db"}
+{"time":"2026-05-07T13:54:34.657350+00:00","level":"INFO","msg":"  Collection name : mediassist_stg"}
+{"time":"2026-05-07T13:54:34.657350+00:00","level":"INFO","msg":"  Allowed origins : ['http://localhost:5173', 'http://localhost:3000']"}
+{"time":"2026-05-07T13:54:34.676001+00:00","level":"INFO","msg":"  Host / Port     : 0.0.0.0:8000"}
+{"time":"2026-05-07T13:54:34.676001+00:00","level":"INFO","msg":"MediAssist API ready ✓"}
+{"time":"2026-05-07T13:54:34.676001+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-07T13:54:34.940694+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-07T13:54:34.940694+00:00","level":"INFO","msg":"MediAssist API starting up"}
+{"time":"2026-05-07T13:54:34.954642+00:00","level":"INFO","msg":"  LLM provider    : openai"}
+{"time":"2026-05-07T13:54:34.955364+00:00","level":"INFO","msg":"  ChromaDB path   : ./knowledge_base/chroma_db"}
+{"time":"2026-05-07T13:54:34.955364+00:00","level":"INFO","msg":"  Collection name : mediassist_stg"}
+{"time":"2026-05-07T13:54:34.955364+00:00","level":"INFO","msg":"  Allowed origins : ['http://localhost:5173', 'http://localhost:3000']"}
+{"time":"2026-05-07T13:54:34.955364+00:00","level":"INFO","msg":"  Host / Port     : 0.0.0.0:8000"}
+{"time":"2026-05-07T13:54:34.955364+00:00","level":"INFO","msg":"MediAssist API ready ✓"}
+{"time":"2026-05-07T13:54:34.957371+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-07T13:54:35.067078+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-07T13:54:35.067622+00:00","level":"INFO","msg":"MediAssist API starting up"}
+{"time":"2026-05-07T13:54:35.067622+00:00","level":"INFO","msg":"  LLM provider    : openai"}
+{"time":"2026-05-07T13:54:35.067622+00:00","level":"INFO","msg":"  ChromaDB path   : ./knowledge_base/chroma_db"}
+{"time":"2026-05-07T13:54:35.067622+00:00","level":"INFO","msg":"  Collection name : mediassist_stg"}
+{"time":"2026-05-07T13:54:35.069376+00:00","level":"INFO","msg":"  Allowed origins : ['http://localhost:5173', 'http://localhost:3000']"}
+{"time":"2026-05-07T13:54:35.069376+00:00","level":"INFO","msg":"  Host / Port     : 0.0.0.0:8000"}
+{"time":"2026-05-07T13:54:35.069376+00:00","level":"INFO","msg":"MediAssist API ready ✓"}
+{"time":"2026-05-07T13:54:35.069376+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-07T13:54:35.116359+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-07T13:54:35.116359+00:00","level":"INFO","msg":"MediAssist API starting up"}
+{"time":"2026-05-07T13:54:35.120802+00:00","level":"INFO","msg":"  LLM provider    : openai"}
+{"time":"2026-05-07T13:54:35.120802+00:00","level":"INFO","msg":"  ChromaDB path   : ./knowledge_base/chroma_db"}
+{"time":"2026-05-07T13:54:35.120802+00:00","level":"INFO","msg":"  Collection name : mediassist_stg"}
+{"time":"2026-05-07T13:54:35.120802+00:00","level":"INFO","msg":"  Allowed origins : ['http://localhost:5173', 'http://localhost:3000']"}
+{"time":"2026-05-07T13:54:35.122067+00:00","level":"INFO","msg":"  Host / Port     : 0.0.0.0:8000"}
+{"time":"2026-05-07T13:54:35.122067+00:00","level":"INFO","msg":"MediAssist API ready ✓"}
+{"time":"2026-05-07T13:54:35.122067+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-07T13:54:36.185204+00:00","level":"INFO","msg":"MediAssist API shutting down"}
+{"time":"2026-05-07T13:54:36.852479+00:00","level":"INFO","msg":"MediAssist API shutting down"}
+{"time":"2026-05-07T13:54:36.868380+00:00","level":"INFO","msg":"MediAssist API shutting down"}
+{"time":"2026-05-07T13:54:36.888194+00:00","level":"INFO","msg":"MediAssist API shutting down"}
+{"time":"2026-05-07T13:54:37.234517+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-07T13:54:37.237306+00:00","level":"INFO","msg":"MediAssist API starting up"}
+{"time":"2026-05-07T13:54:37.237306+00:00","level":"INFO","msg":"  LLM provider    : openai"}
+{"time":"2026-05-07T13:54:37.238213+00:00","level":"INFO","msg":"  ChromaDB path   : ./knowledge_base/chroma_db"}
+{"time":"2026-05-07T13:54:37.238213+00:00","level":"INFO","msg":"  Collection name : mediassist_stg"}
+{"time":"2026-05-07T13:54:37.238213+00:00","level":"INFO","msg":"  Allowed origins : ['http://localhost:5173', 'http://localhost:3000']"}
+{"time":"2026-05-07T13:54:37.238213+00:00","level":"INFO","msg":"  Host / Port     : 0.0.0.0:8000"}
+{"time":"2026-05-07T13:54:37.238213+00:00","level":"INFO","msg":"MediAssist API ready ✓"}
+{"time":"2026-05-07T13:54:37.238213+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-07T13:54:37.998877+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-07T13:54:37.998877+00:00","level":"INFO","msg":"MediAssist API starting up"}
+{"time":"2026-05-07T13:54:38.000893+00:00","level":"INFO","msg":"  LLM provider    : openai"}
+{"time":"2026-05-07T13:54:38.000893+00:00","level":"INFO","msg":"  ChromaDB path   : ./knowledge_base/chroma_db"}
+{"time":"2026-05-07T13:54:38.000893+00:00","level":"INFO","msg":"  Collection name : mediassist_stg"}
+{"time":"2026-05-07T13:54:38.001906+00:00","level":"INFO","msg":"  Allowed origins : ['http://localhost:5173', 'http://localhost:3000']"}
+{"time":"2026-05-07T13:54:38.001906+00:00","level":"INFO","msg":"  Host / Port     : 0.0.0.0:8000"}
+{"time":"2026-05-07T13:54:38.001906+00:00","level":"INFO","msg":"MediAssist API ready ✓"}
+{"time":"2026-05-07T13:54:38.001906+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-07T13:54:38.048201+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-07T13:54:38.048201+00:00","level":"INFO","msg":"MediAssist API starting up"}
+{"time":"2026-05-07T13:54:38.048201+00:00","level":"INFO","msg":"  LLM provider    : openai"}
+{"time":"2026-05-07T13:54:38.048201+00:00","level":"INFO","msg":"  ChromaDB path   : ./knowledge_base/chroma_db"}
+{"time":"2026-05-07T13:54:38.053046+00:00","level":"INFO","msg":"  Collection name : mediassist_stg"}
+{"time":"2026-05-07T13:54:38.053046+00:00","level":"INFO","msg":"  Allowed origins : ['http://localhost:5173', 'http://localhost:3000']"}
+{"time":"2026-05-07T13:54:38.053893+00:00","level":"INFO","msg":"  Host / Port     : 0.0.0.0:8000"}
+{"time":"2026-05-07T13:54:38.054933+00:00","level":"INFO","msg":"MediAssist API ready ✓"}
+{"time":"2026-05-07T13:54:38.054933+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-07T13:54:38.073439+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-07T13:54:38.077535+00:00","level":"INFO","msg":"MediAssist API starting up"}
+{"time":"2026-05-07T13:54:38.077535+00:00","level":"INFO","msg":"  LLM provider    : openai"}
+{"time":"2026-05-07T13:54:38.077535+00:00","level":"INFO","msg":"  ChromaDB path   : ./knowledge_base/chroma_db"}
+{"time":"2026-05-07T13:54:38.077535+00:00","level":"INFO","msg":"  Collection name : mediassist_stg"}
+{"time":"2026-05-07T13:54:38.077535+00:00","level":"INFO","msg":"  Allowed origins : ['http://localhost:5173', 'http://localhost:3000']"}
+{"time":"2026-05-07T13:54:38.077535+00:00","level":"INFO","msg":"  Host / Port     : 0.0.0.0:8000"}
+{"time":"2026-05-07T13:54:38.077535+00:00","level":"INFO","msg":"MediAssist API ready ✓"}
+{"time":"2026-05-07T13:54:38.077535+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-07T14:02:24.067521+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-07T14:02:24.067521+00:00","level":"INFO","msg":"MediAssist API starting up"}
+{"time":"2026-05-07T14:02:24.067521+00:00","level":"INFO","msg":"  LLM provider    : openai"}
+{"time":"2026-05-07T14:02:24.067521+00:00","level":"INFO","msg":"  ChromaDB path   : ./knowledge_base/chroma_db"}
+{"time":"2026-05-07T14:02:24.070638+00:00","level":"INFO","msg":"  Collection name : mediassist_stg"}
+{"time":"2026-05-07T14:02:24.070638+00:00","level":"INFO","msg":"  Allowed origins : ['http://localhost:5173', 'http://localhost:3000']"}
+{"time":"2026-05-07T14:02:24.070638+00:00","level":"INFO","msg":"  Host / Port     : 0.0.0.0:8000"}
+{"time":"2026-05-07T14:02:24.070638+00:00","level":"INFO","msg":"MediAssist API ready ✓"}
+{"time":"2026-05-07T14:02:24.070638+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-07T17:54:38.867241+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-07T17:54:38.867241+00:00","level":"INFO","msg":"MediAssist API starting up"}
+{"time":"2026-05-07T17:54:38.867241+00:00","level":"INFO","msg":"  LLM provider    : openai"}
+{"time":"2026-05-07T17:54:38.867241+00:00","level":"INFO","msg":"  ChromaDB path   : ./knowledge_base/chroma_db"}
+{"time":"2026-05-07T17:54:38.867241+00:00","level":"INFO","msg":"  Collection name : mediassist_stg"}
+{"time":"2026-05-07T17:54:38.867241+00:00","level":"INFO","msg":"  Allowed origins : ['http://localhost:5173', 'http://localhost:3000']"}
+{"time":"2026-05-07T17:54:38.867241+00:00","level":"INFO","msg":"  Host / Port     : 0.0.0.0:8000"}
+{"time":"2026-05-07T17:54:38.867241+00:00","level":"INFO","msg":"MediAssist API ready ✓"}
+{"time":"2026-05-07T17:54:38.867241+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-07T17:58:29.725960+00:00","level":"INFO","msg":"MediAssist API shutting down"}
+{"time":"2026-05-07T17:58:30.413172+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-07T17:58:30.413172+00:00","level":"INFO","msg":"MediAssist API starting up"}
+{"time":"2026-05-07T17:58:30.413172+00:00","level":"INFO","msg":"  LLM provider    : openai"}
+{"time":"2026-05-07T17:58:30.413172+00:00","level":"INFO","msg":"  ChromaDB path   : ./knowledge_base/chroma_db"}
+{"time":"2026-05-07T17:58:30.413172+00:00","level":"INFO","msg":"  Collection name : mediassist_stg"}
+{"time":"2026-05-07T17:58:30.413172+00:00","level":"INFO","msg":"  Allowed origins : ['http://localhost:5173', 'http://localhost:3000']"}
+{"time":"2026-05-07T17:58:30.413172+00:00","level":"INFO","msg":"  Host / Port     : 0.0.0.0:8000"}
+{"time":"2026-05-07T17:58:30.413172+00:00","level":"INFO","msg":"MediAssist API ready ✓"}
+{"time":"2026-05-07T17:58:30.413172+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-08T09:43:00.373139+00:00","level":"INFO","msg":"MediAssist API shutting down"}
+{"time":"2026-05-08T09:54:07.769271+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-08T09:54:07.769271+00:00","level":"INFO","msg":"MediAssist API starting up"}
+{"time":"2026-05-08T09:54:07.769271+00:00","level":"INFO","msg":"  LLM provider    : openai"}
+{"time":"2026-05-08T09:54:07.769271+00:00","level":"INFO","msg":"  ChromaDB path   : ./knowledge_base/chroma_db"}
+{"time":"2026-05-08T09:54:07.769271+00:00","level":"INFO","msg":"  Collection name : mediassist_stg"}
+{"time":"2026-05-08T09:54:07.769271+00:00","level":"INFO","msg":"  Allowed origins : ['http://localhost:5173', 'http://localhost:3000']"}
+{"time":"2026-05-08T09:54:07.769271+00:00","level":"INFO","msg":"  Host / Port     : 0.0.0.0:8000"}
+{"time":"2026-05-08T09:54:07.769271+00:00","level":"INFO","msg":"MediAssist API ready ✓"}
+{"time":"2026-05-08T09:54:07.769271+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-08T09:54:09.412679+00:00","level":"INFO","msg":"MediAssist API shutting down"}
+{"time":"2026-05-08T09:54:10.385755+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-08T09:54:10.385755+00:00","level":"INFO","msg":"MediAssist API starting up"}
+{"time":"2026-05-08T09:54:10.385755+00:00","level":"INFO","msg":"  LLM provider    : openai"}
+{"time":"2026-05-08T09:54:10.388443+00:00","level":"INFO","msg":"  ChromaDB path   : ./knowledge_base/chroma_db"}
+{"time":"2026-05-08T09:54:10.388966+00:00","level":"INFO","msg":"  Collection name : mediassist_stg"}
+{"time":"2026-05-08T09:54:10.388966+00:00","level":"INFO","msg":"  Allowed origins : ['http://localhost:5173', 'http://localhost:3000']"}
+{"time":"2026-05-08T09:54:10.388966+00:00","level":"INFO","msg":"  Host / Port     : 0.0.0.0:8000"}
+{"time":"2026-05-08T09:54:10.390169+00:00","level":"INFO","msg":"MediAssist API ready ✓"}
+{"time":"2026-05-08T09:54:10.390169+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-08T09:56:54.042712+00:00","level":"INFO","msg":"MediAssist API shutting down"}
+{"time":"2026-05-08T09:56:55.139133+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-08T09:56:55.140624+00:00","level":"INFO","msg":"MediAssist API starting up"}
+{"time":"2026-05-08T09:56:55.140624+00:00","level":"INFO","msg":"  LLM provider    : openai"}
+{"time":"2026-05-08T09:56:55.140624+00:00","level":"INFO","msg":"  ChromaDB path   : ./knowledge_base/chroma_db"}
+{"time":"2026-05-08T09:56:55.140624+00:00","level":"INFO","msg":"  Collection name : mediassist_stg"}
+{"time":"2026-05-08T09:56:55.140624+00:00","level":"INFO","msg":"  Allowed origins : ['http://localhost:5173', 'http://localhost:3000']"}
+{"time":"2026-05-08T09:56:55.142380+00:00","level":"INFO","msg":"  Host / Port     : 0.0.0.0:8000"}
+{"time":"2026-05-08T09:56:55.142380+00:00","level":"INFO","msg":"MediAssist API ready ✓"}
+{"time":"2026-05-08T09:56:55.142380+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-08T09:57:01.338680+00:00","level":"INFO","msg":"MediAssist API shutting down"}
+{"time":"2026-05-08T09:57:02.368989+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-08T09:57:02.368989+00:00","level":"INFO","msg":"MediAssist API starting up"}
+{"time":"2026-05-08T09:57:02.368989+00:00","level":"INFO","msg":"  LLM provider    : openai"}
+{"time":"2026-05-08T09:57:02.368989+00:00","level":"INFO","msg":"  ChromaDB path   : ./knowledge_base/chroma_db"}
+{"time":"2026-05-08T09:57:02.376320+00:00","level":"INFO","msg":"  Collection name : mediassist_stg"}
+{"time":"2026-05-08T09:57:02.376320+00:00","level":"INFO","msg":"  Allowed origins : ['http://localhost:5173', 'http://localhost:3000']"}
+{"time":"2026-05-08T09:57:02.376320+00:00","level":"INFO","msg":"  Host / Port     : 0.0.0.0:8000"}
+{"time":"2026-05-08T09:57:02.376320+00:00","level":"INFO","msg":"MediAssist API ready ✓"}
+{"time":"2026-05-08T09:57:02.376320+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-08T10:02:20.864405+00:00","level":"INFO","msg":"MediAssist API shutting down"}
+{"time":"2026-05-08T10:02:22.182188+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-08T10:02:22.183614+00:00","level":"INFO","msg":"MediAssist API starting up"}
+{"time":"2026-05-08T10:02:22.183614+00:00","level":"INFO","msg":"  LLM provider    : openai"}
+{"time":"2026-05-08T10:02:22.183614+00:00","level":"INFO","msg":"  ChromaDB path   : ./knowledge_base/chroma_db"}
+{"time":"2026-05-08T10:02:22.183614+00:00","level":"INFO","msg":"  Collection name : mediassist_stg"}
+{"time":"2026-05-08T10:02:22.183614+00:00","level":"INFO","msg":"  Allowed origins : ['http://localhost:5173', 'http://localhost:3000']"}
+{"time":"2026-05-08T10:02:22.183614+00:00","level":"INFO","msg":"  Host / Port     : 0.0.0.0:8000"}
+{"time":"2026-05-08T10:02:22.183614+00:00","level":"INFO","msg":"MediAssist API ready ✓"}
+{"time":"2026-05-08T10:02:22.188808+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-08T10:04:12.710822+00:00","level":"INFO","msg":"MediAssist API shutting down"}
+{"time":"2026-05-08T10:04:13.830762+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-08T10:04:13.830762+00:00","level":"INFO","msg":"MediAssist API starting up"}
+{"time":"2026-05-08T10:04:13.830762+00:00","level":"INFO","msg":"  LLM provider    : openai"}
+{"time":"2026-05-08T10:04:13.830762+00:00","level":"INFO","msg":"  ChromaDB path   : ./knowledge_base/chroma_db"}
+{"time":"2026-05-08T10:04:13.830762+00:00","level":"INFO","msg":"  Collection name : mediassist_stg"}
+{"time":"2026-05-08T10:04:13.830762+00:00","level":"INFO","msg":"  Allowed origins : ['http://localhost:5173', 'http://localhost:3000']"}
+{"time":"2026-05-08T10:04:13.830762+00:00","level":"INFO","msg":"  Host / Port     : 0.0.0.0:8000"}
+{"time":"2026-05-08T10:04:13.830762+00:00","level":"INFO","msg":"MediAssist API ready ✓"}
+{"time":"2026-05-08T10:04:13.830762+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-08T10:08:59.127666+00:00","level":"INFO","msg":"MediAssist API shutting down"}
+{"time":"2026-05-08T10:09:00.190850+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-08T10:09:00.190850+00:00","level":"INFO","msg":"MediAssist API starting up"}
+{"time":"2026-05-08T10:09:00.190850+00:00","level":"INFO","msg":"  LLM provider    : openai"}
+{"time":"2026-05-08T10:09:00.190850+00:00","level":"INFO","msg":"  ChromaDB path   : ./knowledge_base/chroma_db"}
+{"time":"2026-05-08T10:09:00.190850+00:00","level":"INFO","msg":"  Collection name : mediassist_stg"}
+{"time":"2026-05-08T10:09:00.190850+00:00","level":"INFO","msg":"  Allowed origins : ['http://localhost:5173', 'http://localhost:3000']"}
+{"time":"2026-05-08T10:09:00.190850+00:00","level":"INFO","msg":"  Host / Port     : 0.0.0.0:8000"}
+{"time":"2026-05-08T10:09:00.190850+00:00","level":"INFO","msg":"MediAssist API ready ✓"}
+{"time":"2026-05-08T10:09:00.190850+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-08T10:10:23.451762+00:00","level":"INFO","msg":"MediAssist API shutting down"}
+{"time":"2026-05-08T10:10:24.570779+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-08T10:10:24.571805+00:00","level":"INFO","msg":"MediAssist API starting up"}
+{"time":"2026-05-08T10:10:24.571805+00:00","level":"INFO","msg":"  LLM provider    : openai"}
+{"time":"2026-05-08T10:10:24.571805+00:00","level":"INFO","msg":"  ChromaDB path   : ./knowledge_base/chroma_db"}
+{"time":"2026-05-08T10:10:24.571805+00:00","level":"INFO","msg":"  Collection name : mediassist_stg"}
+{"time":"2026-05-08T10:10:24.571805+00:00","level":"INFO","msg":"  Allowed origins : ['http://localhost:5173', 'http://localhost:3000']"}
+{"time":"2026-05-08T10:10:24.571805+00:00","level":"INFO","msg":"  Host / Port     : 0.0.0.0:8000"}
+{"time":"2026-05-08T10:10:24.571805+00:00","level":"INFO","msg":"MediAssist API ready ✓"}
+{"time":"2026-05-08T10:10:24.571805+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-08T10:19:01.841145+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-08T10:19:01.841145+00:00","level":"INFO","msg":"MediAssist API starting up"}
+{"time":"2026-05-08T10:19:01.841145+00:00","level":"INFO","msg":"  LLM provider    : openai"}
+{"time":"2026-05-08T10:19:01.841763+00:00","level":"INFO","msg":"  ChromaDB path   : ./knowledge_base/chroma_db"}
+{"time":"2026-05-08T10:19:01.841763+00:00","level":"INFO","msg":"  Collection name : mediassist_stg"}
+{"time":"2026-05-08T10:19:01.841763+00:00","level":"INFO","msg":"  Allowed origins : ['http://localhost:5173', 'http://localhost:3000']"}
+{"time":"2026-05-08T10:19:01.841763+00:00","level":"INFO","msg":"  Host / Port     : 0.0.0.0:8000"}
+{"time":"2026-05-08T10:19:01.841763+00:00","level":"INFO","msg":"MediAssist API ready ✓"}
+{"time":"2026-05-08T10:19:01.888129+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-08T10:21:26.843883+00:00","level":"INFO","msg":"POST /query  symptoms_len=30  age=None  gender=None"}
+{"time":"2026-05-08T10:21:26.843883+00:00","level":"INFO","msg":"POST /query  completed  total_ms=0"}
+{"time":"2026-05-08T10:21:43.359369+00:00","level":"INFO","msg":"POST /query  symptoms_len=30  age=None  gender=None"}
+{"time":"2026-05-08T10:21:43.361032+00:00","level":"INFO","msg":"POST /query  completed  total_ms=0"}
+{"time":"2026-05-12T16:22:57.635177+00:00","level":"INFO","msg":"MediAssist API shutting down"}
+{"time":"2026-05-12T16:23:02.708073+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-12T16:23:02.708073+00:00","level":"INFO","msg":"MediAssist API starting up"}
+{"time":"2026-05-12T16:23:02.708073+00:00","level":"INFO","msg":"  LLM provider    : openai"}
+{"time":"2026-05-12T16:23:02.708073+00:00","level":"INFO","msg":"  ChromaDB path   : ./knowledge_base/chroma_db"}
+{"time":"2026-05-12T16:23:02.708073+00:00","level":"INFO","msg":"  Collection name : mediassist_stg"}
+{"time":"2026-05-12T16:23:02.708073+00:00","level":"INFO","msg":"  Allowed origins : ['http://localhost:5173', 'http://localhost:3000']"}
+{"time":"2026-05-12T16:23:02.708632+00:00","level":"INFO","msg":"  Host / Port     : 0.0.0.0:8000"}
+{"time":"2026-05-12T16:23:02.708632+00:00","level":"INFO","msg":"MediAssist API ready ✓"}
+{"time":"2026-05-12T16:23:02.708632+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-12T16:25:14.698448+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-12T16:25:14.699289+00:00","level":"INFO","msg":"MediAssist API starting up"}
+{"time":"2026-05-12T16:25:14.699483+00:00","level":"INFO","msg":"  LLM provider    : openai"}
+{"time":"2026-05-12T16:25:14.699613+00:00","level":"INFO","msg":"  ChromaDB path   : ./knowledge_base/chroma_db"}
+{"time":"2026-05-12T16:25:14.699744+00:00","level":"INFO","msg":"  Collection name : mediassist_stg"}
+{"time":"2026-05-12T16:25:14.699869+00:00","level":"INFO","msg":"  Allowed origins : ['http://localhost:5173', 'http://localhost:3000']"}
+{"time":"2026-05-12T16:25:14.699988+00:00","level":"INFO","msg":"  Host / Port     : 0.0.0.0:8000"}
+{"time":"2026-05-12T16:25:14.700246+00:00","level":"INFO","msg":"MediAssist API ready ✓"}
+{"time":"2026-05-12T16:25:14.700467+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-12T16:25:48.447882+00:00","level":"INFO","msg":"Login successful for user: dr.demo@mediassist.test"}
+{"time":"2026-05-12T16:26:38.305667+00:00","level":"INFO","msg":"Generated diagnosis for symptoms: fever and headache..."}
+{"time":"2026-05-12T16:27:11.072854+00:00","level":"INFO","msg":"MediAssist API shutting down"}
+{"time":"2026-05-12T16:28:01.753525+00:00","level":"INFO","msg":"MediAssist API shutting down"}
+{"time":"2026-05-12T16:28:32.330668+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-12T16:28:32.332031+00:00","level":"INFO","msg":"MediAssist API starting up"}
+{"time":"2026-05-12T16:28:32.332424+00:00","level":"INFO","msg":"  LLM provider    : openai"}
+{"time":"2026-05-12T16:28:32.332785+00:00","level":"INFO","msg":"  ChromaDB path   : ./knowledge_base/chroma_db"}
+{"time":"2026-05-12T16:28:32.333225+00:00","level":"INFO","msg":"  Collection name : mediassist_stg"}
+{"time":"2026-05-12T16:28:32.333436+00:00","level":"INFO","msg":"  Allowed origins : ['http://localhost:5173', 'http://localhost:3000']"}
+{"time":"2026-05-12T16:28:32.333711+00:00","level":"INFO","msg":"  Host / Port     : 0.0.0.0:8000"}
+{"time":"2026-05-12T16:28:32.333998+00:00","level":"INFO","msg":"MediAssist API ready ✓"}
+{"time":"2026-05-12T16:28:32.334279+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-12T16:28:33.315844+00:00","level":"INFO","msg":"MediAssist API shutting down"}
+{"time":"2026-05-12T16:28:34.273000+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-12T16:28:34.273929+00:00","level":"INFO","msg":"MediAssist API starting up"}
+{"time":"2026-05-12T16:28:34.274277+00:00","level":"INFO","msg":"  LLM provider    : openai"}
+{"time":"2026-05-12T16:28:34.274588+00:00","level":"INFO","msg":"  ChromaDB path   : ./knowledge_base/chroma_db"}
+{"time":"2026-05-12T16:28:34.274829+00:00","level":"INFO","msg":"  Collection name : mediassist_stg"}
+{"time":"2026-05-12T16:28:34.275081+00:00","level":"INFO","msg":"  Allowed origins : ['http://localhost:5173', 'http://localhost:3000']"}
+{"time":"2026-05-12T16:28:34.275312+00:00","level":"INFO","msg":"  Host / Port     : 0.0.0.0:8000"}
+{"time":"2026-05-12T16:28:34.275549+00:00","level":"INFO","msg":"MediAssist API ready ✓"}
+{"time":"2026-05-12T16:28:34.275774+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-12T16:29:02.502993+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-12T16:29:02.503989+00:00","level":"INFO","msg":"MediAssist API starting up"}
+{"time":"2026-05-12T16:29:02.504321+00:00","level":"INFO","msg":"  LLM provider    : openai"}
+{"time":"2026-05-12T16:29:02.504634+00:00","level":"INFO","msg":"  ChromaDB path   : ./knowledge_base/chroma_db"}
+{"time":"2026-05-12T16:29:02.504917+00:00","level":"INFO","msg":"  Collection name : mediassist_stg"}
+{"time":"2026-05-12T16:29:02.505144+00:00","level":"INFO","msg":"  Allowed origins : ['http://localhost:5173', 'http://localhost:3000']"}
+{"time":"2026-05-12T16:29:02.505363+00:00","level":"INFO","msg":"  Host / Port     : 0.0.0.0:8000"}
+{"time":"2026-05-12T16:29:02.505728+00:00","level":"INFO","msg":"MediAssist API ready ✓"}
+{"time":"2026-05-12T16:29:02.506075+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-12T16:29:28.858323+00:00","level":"ERROR","msg":"Unhandled exception on POST /api/v1/consultations: NameError: name '_build_stub_response' is not defined"}
+{"time":"2026-05-12T16:34:02.407374+00:00","level":"INFO","msg":"MediAssist API shutting down"}
+{"time":"2026-05-12T16:34:03.381547+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-12T16:34:03.382686+00:00","level":"INFO","msg":"MediAssist API starting up"}
+{"time":"2026-05-12T16:34:03.383011+00:00","level":"INFO","msg":"  LLM provider    : openai"}
+{"time":"2026-05-12T16:34:03.383279+00:00","level":"INFO","msg":"  ChromaDB path   : ./knowledge_base/chroma_db"}
+{"time":"2026-05-12T16:34:03.383547+00:00","level":"INFO","msg":"  Collection name : mediassist_stg"}
+{"time":"2026-05-12T16:34:03.383847+00:00","level":"INFO","msg":"  Allowed origins : ['http://localhost:5173', 'http://localhost:3000']"}
+{"time":"2026-05-12T16:34:03.384037+00:00","level":"INFO","msg":"  Host / Port     : 0.0.0.0:8000"}
+{"time":"2026-05-12T16:34:03.384447+00:00","level":"INFO","msg":"MediAssist API ready ✓"}
+{"time":"2026-05-12T16:34:03.384756+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-12T16:34:03.890538+00:00","level":"INFO","msg":"MediAssist API shutting down"}
+{"time":"2026-05-12T16:34:04.788779+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-12T16:34:04.789501+00:00","level":"INFO","msg":"MediAssist API starting up"}
+{"time":"2026-05-12T16:34:04.789763+00:00","level":"INFO","msg":"  LLM provider    : openai"}
+{"time":"2026-05-12T16:34:04.790060+00:00","level":"INFO","msg":"  ChromaDB path   : ./knowledge_base/chroma_db"}
+{"time":"2026-05-12T16:34:04.790171+00:00","level":"INFO","msg":"  Collection name : mediassist_stg"}
+{"time":"2026-05-12T16:34:04.790257+00:00","level":"INFO","msg":"  Allowed origins : ['http://localhost:5173', 'http://localhost:3000']"}
+{"time":"2026-05-12T16:34:04.790326+00:00","level":"INFO","msg":"  Host / Port     : 0.0.0.0:8000"}
+{"time":"2026-05-12T16:34:04.790388+00:00","level":"INFO","msg":"MediAssist API ready ✓"}
+{"time":"2026-05-12T16:34:04.790463+00:00","level":"INFO","msg":"============================================================"}

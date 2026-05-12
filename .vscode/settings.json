@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "."
+    ],
+    "chat.agent.maxRequests": 150
+}

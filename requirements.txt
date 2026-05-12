@@ -1,0 +1,37 @@
+# ── Web framework ─────────────────────────────────────────────────────────────
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+
+# ── Data validation ────────────────────────────────────────────────────────────
+pydantic==2.7.1
+pydantic-settings==2.2.1
+
+# ── Environment variables ──────────────────────────────────────────────────────
+python-dotenv==1.0.1
+
+# ── HTTP client (for Ollama API calls + testing) ──────────────────────────────
+httpx==0.27.0
+requests==2.31.0
+
+# ── Retrieval pipeline (Stage 2) ──────────────────────────────────────────────
+chromadb==0.5.0
+sentence-transformers==2.7.0
+rank-bm25==0.2.2
+
+# ── LLM integration (Stage 3) ─────────────────────────────────────────────────
+openai==1.30.1
+sse-starlette==2.1.0
+
+# ── FHIR bridge (Stage 5) ─────────────────────────────────────────────────────
+fhir.resources==7.1.0
+
+# ── PDF processing (knowledge base support) ───────────────────────────────────
+PyPDF2==3.0.1
+
+# ── Testing (Stage 6) ─────────────────────────────────────────────────────────
+pytest==8.2.0
+pytest-asyncio==0.23.6
+pytest-mock==3.14.0
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+python-multipart==0.0.9
