@@ -1,8 +1,15 @@
 from __future__ import annotations
 
 import asyncio
+import sys
 import time
 from typing import Dict, List
+import os
+
+# Ensure project root is on path
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
+
+
 
 from src.core.config import settings
 from src.core.exceptions import RetrievalFailedError
