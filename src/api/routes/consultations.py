@@ -86,6 +86,7 @@ async def create_consultation(
     )
 
     # Get diagnosis results using existing logic
+    from src.api.routes.query import _build_stub_response
     diagnosis_response = _build_stub_response(request.symptoms, 0)
 
     # Convert backend response to frontend format

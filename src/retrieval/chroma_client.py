@@ -3,7 +3,6 @@ from __future__ import annotations
 import time
 from typing import Dict, List, Optional
 
-from src.core.config import settings
 from src.core.exceptions import RetrievalFailedError
 from src.core.logger import logger
 from src.knowledge_base.kb_loader import kb
@@ -18,7 +17,7 @@ def query_chroma(
     Find top-n_results guideline chunks similar to query embedding.
 
     Args:
-        embedding:      384-dim query vector from encode_query().
+        embedding: 384-dim query vector from encode_query().
         n_results:      Number of chunks to return.
         chapter_filter: Optional chapter name to restrict results to.
 
@@ -28,7 +27,7 @@ def query_chroma(
     Raises:
         RetrievalFailedError: if KB is not loaded or search fails.
     """
-    if not kb._loaded:
+    if not kb.loaded:
         raise RetrievalFailedError(
             "Knowledge base is not loaded. Check startup logs."
         )

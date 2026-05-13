@@ -155,5 +155,9 @@ class KnowledgeBase:
         """All chunk texts — used to build BM25 index."""
         return [c.text for c in self.chunks]
 
+    @property
+    def loaded(self):
+        return self._loaded
+
 
 kb: KnowledgeBase = KnowledgeBase()
