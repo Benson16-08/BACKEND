@@ -23,12 +23,6 @@ from __future__ import annotations
 from typing import Any, Dict, List, Optional
 from pydantic import BaseModel, Field
 
-
-# ─────────────────────────────────────────────────────────────────────────────
-# Shared FHIR building blocks
-# ─────────────────────────────────────────────────────────────────────────────
-
-
 class FHIRCoding(BaseModel):
     """A code defined by a terminology system (e.g. ICD-10, SNOMED)."""
     system:  Optional[str] = None
@@ -83,12 +77,6 @@ class FHIRQuantity(BaseModel):
             return str(self.value)
         return ""
 
-
-# ─────────────────────────────────────────────────────────────────────────────
-# FHIR Patient (R4)
-# ─────────────────────────────────────────────────────────────────────────────
-
-
 class FHIRPatient(BaseModel):
     """
     HL7 FHIR R4 Patient resource — subset used by MediAssist.
@@ -133,12 +121,6 @@ class FHIRPatient(BaseModel):
         except Exception:
             return None
 
-
-# ─────────────────────────────────────────────────────────────────────────────
-# FHIR Condition (R4)
-# ─────────────────────────────────────────────────────────────────────────────
-
-
 class FHIRCondition(BaseModel):
     """
     HL7 FHIR R4 Condition resource.
@@ -167,12 +149,6 @@ class FHIRCondition(BaseModel):
         if self.code:
             return self.code.get_display_text()
         return "Unknown condition"
-
-
-# ─────────────────────────────────────────────────────────────────────────────
-# FHIR Observation (R4)
-# ─────────────────────────────────────────────────────────────────────────────
-
 
 class FHIRObservation(BaseModel):
     """
@@ -215,12 +191,6 @@ class FHIRObservation(BaseModel):
         if self.valueString:
             return f"{obs_type}: {self.valueString}"
         return obs_type
-
-
-# ─────────────────────────────────────────────────────────────────────────────
-# FHIRPatientContext — the top-level payload for POST /api/v1/fhir/patient-context
-# ─────────────────────────────────────────────────────────────────────────────
-
 
 class FHIRPatientContext(BaseModel):
     """
