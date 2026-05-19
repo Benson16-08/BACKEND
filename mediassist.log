@@ -479,3 +479,12 @@
 {"time":"2026-05-19T10:58:00.784205+00:00","level":"INFO","msg":"retrieve_chunks: query_len=251  search_ms=239  total_ms=239  vector=10  bm25=10  returned=5"}
 {"time":"2026-05-19T10:58:00.784205+00:00","level":"INFO","msg":"run_pipeline: provider=openai  symptoms_len=336  chunks=5"}
 {"time":"2026-05-19T10:58:04.875995+00:00","level":"INFO","msg":"method=POST path=/api/v1/fhir/patient-context status=503 retrieval_ms=- llm_ms=- total_ms=4351 ip=127.0.0.1"}
+{"time":"2026-05-19T11:01:52.007644+00:00","level":"INFO","msg":"method=GET path=/api/v1/fhir/health status=200 retrieval_ms=- llm_ms=- total_ms=0 ip=127.0.0.1"}
+{"time":"2026-05-19T11:01:54.071924+00:00","level":"INFO","msg":"POST /fhir/patient-context  patient_id=gothomis-patient-001"}
+{"time":"2026-05-19T11:01:54.071924+00:00","level":"INFO","msg":"FHIR validation passed: patient=gothomis-patient-001  conditions=3  observations=3"}
+{"time":"2026-05-19T11:01:54.073219+00:00","level":"INFO","msg":"parse_patient_context: patient=gothomis-patient-001  age=35  gender=male  symptoms_len=251  conditions=3  observations=3"}
+{"time":"2026-05-19T11:01:54.102256+00:00","level":"INFO","msg":"query_chroma: returned 10 chunks in 0ms (top_score=0.1123)"}
+{"time":"2026-05-19T11:01:54.119818+00:00","level":"INFO","msg":"rerank: 10 vector + 10 BM25 → 5 merged (top_k=5)"}
+{"time":"2026-05-19T11:01:54.119818+00:00","level":"INFO","msg":"retrieve_chunks: query_len=251  search_ms=46  total_ms=46  vector=10  bm25=10  returned=5"}
+{"time":"2026-05-19T11:01:54.120821+00:00","level":"INFO","msg":"run_pipeline: provider=openai  symptoms_len=336  chunks=5"}
+{"time":"2026-05-19T11:01:58.166465+00:00","level":"INFO","msg":"method=POST path=/api/v1/fhir/patient-context status=503 retrieval_ms=- llm_ms=- total_ms=4095 ip=127.0.0.1"}
