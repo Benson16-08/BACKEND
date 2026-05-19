@@ -437,3 +437,45 @@
 {"time":"2026-05-13T20:33:19.130996+00:00","level":"INFO","msg":"  Host / Port     : 0.0.0.0:8000"}
 {"time":"2026-05-13T20:33:19.130996+00:00","level":"INFO","msg":"MediAssist API ready ✓"}
 {"time":"2026-05-13T20:33:19.130996+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-19T10:56:46.335194+00:00","level":"INFO","msg":"Loading embedding model: sentence-transformers/all-MiniLM-L6-v2 ..."}
+{"time":"2026-05-19T10:57:03.227854+00:00","level":"INFO","msg":"Embedding model loaded in 16887ms ✓"}
+{"time":"2026-05-19T10:57:03.277677+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-19T10:57:03.277677+00:00","level":"INFO","msg":"MediAssist API starting up"}
+{"time":"2026-05-19T10:57:03.278687+00:00","level":"INFO","msg":"Loading knowledge base from ChromaDB artefacts..."}
+{"time":"2026-05-19T10:57:03.285766+00:00","level":"INFO","msg":"Loaded 1862 vectors from HNSW binary"}
+{"time":"2026-05-19T10:57:03.354177+00:00","level":"INFO","msg":"Loaded 1862 rows from SQLite"}
+{"time":"2026-05-19T10:57:03.364130+00:00","level":"INFO","msg":"Knowledge base ready: 1862 chunks, matrix (1862, 384), loaded in 85ms ✓"}
+{"time":"2026-05-19T10:57:03.365139+00:00","level":"INFO","msg":"  LLM provider    : openai"}
+{"time":"2026-05-19T10:57:03.365139+00:00","level":"INFO","msg":"  ChromaDB path   : ./knowledge_base/chroma_db"}
+{"time":"2026-05-19T10:57:03.365933+00:00","level":"INFO","msg":"  Collection name : mediassist_stg"}
+{"time":"2026-05-19T10:57:03.366238+00:00","level":"INFO","msg":"  Allowed origins : ['http://localhost:5173', 'http://localhost:3000']"}
+{"time":"2026-05-19T10:57:03.366238+00:00","level":"INFO","msg":"  Host / Port     : 0.0.0.0:8000"}
+{"time":"2026-05-19T10:57:03.366238+00:00","level":"INFO","msg":"MediAssist API ready ✓"}
+{"time":"2026-05-19T10:57:03.367241+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-19T10:57:03.369237+00:00","level":"INFO","msg":"MediAssist API shutting down"}
+{"time":"2026-05-19T10:57:22.643488+00:00","level":"INFO","msg":"Loading embedding model: sentence-transformers/all-MiniLM-L6-v2 ..."}
+{"time":"2026-05-19T10:57:35.715513+00:00","level":"INFO","msg":"Embedding model loaded in 13074ms ✓"}
+{"time":"2026-05-19T10:57:35.748130+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-19T10:57:35.748130+00:00","level":"INFO","msg":"MediAssist API starting up"}
+{"time":"2026-05-19T10:57:35.748130+00:00","level":"INFO","msg":"Loading knowledge base from ChromaDB artefacts..."}
+{"time":"2026-05-19T10:57:35.755705+00:00","level":"INFO","msg":"Loaded 1862 vectors from HNSW binary"}
+{"time":"2026-05-19T10:57:35.779896+00:00","level":"INFO","msg":"Loaded 1862 rows from SQLite"}
+{"time":"2026-05-19T10:57:35.789625+00:00","level":"INFO","msg":"Knowledge base ready: 1862 chunks, matrix (1862, 384), loaded in 40ms ✓"}
+{"time":"2026-05-19T10:57:35.789625+00:00","level":"INFO","msg":"  LLM provider    : openai"}
+{"time":"2026-05-19T10:57:35.791395+00:00","level":"INFO","msg":"  ChromaDB path   : ./knowledge_base/chroma_db"}
+{"time":"2026-05-19T10:57:35.791395+00:00","level":"INFO","msg":"  Collection name : mediassist_stg"}
+{"time":"2026-05-19T10:57:35.791395+00:00","level":"INFO","msg":"  Allowed origins : ['http://localhost:5173', 'http://localhost:3000']"}
+{"time":"2026-05-19T10:57:35.791395+00:00","level":"INFO","msg":"  Host / Port     : 0.0.0.0:8000"}
+{"time":"2026-05-19T10:57:35.792405+00:00","level":"INFO","msg":"MediAssist API ready ✓"}
+{"time":"2026-05-19T10:57:35.792405+00:00","level":"INFO","msg":"============================================================"}
+{"time":"2026-05-19T10:57:58.475332+00:00","level":"INFO","msg":"method=GET path=/api/v1/fhir/health status=200 retrieval_ms=- llm_ms=- total_ms=3 ip=127.0.0.1"}
+{"time":"2026-05-19T10:58:00.540801+00:00","level":"INFO","msg":"POST /fhir/patient-context  patient_id=gothomis-patient-001"}
+{"time":"2026-05-19T10:58:00.543312+00:00","level":"INFO","msg":"FHIR validation passed: patient=gothomis-patient-001  conditions=3  observations=3"}
+{"time":"2026-05-19T10:58:00.543831+00:00","level":"INFO","msg":"parse_patient_context: patient=gothomis-patient-001  age=35  gender=male  symptoms_len=251  conditions=3  observations=3"}
+{"time":"2026-05-19T10:58:00.731205+00:00","level":"INFO","msg":"query_chroma: returned 10 chunks in 3ms (top_score=0.1123)"}
+{"time":"2026-05-19T10:58:00.731205+00:00","level":"INFO","msg":"Building BM25 index from KB texts..."}
+{"time":"2026-05-19T10:58:00.765255+00:00","level":"INFO","msg":"BM25 index built: 1862 docs in 34ms ✓"}
+{"time":"2026-05-19T10:58:00.783192+00:00","level":"INFO","msg":"rerank: 10 vector + 10 BM25 → 5 merged (top_k=5)"}
+{"time":"2026-05-19T10:58:00.784205+00:00","level":"INFO","msg":"retrieve_chunks: query_len=251  search_ms=239  total_ms=239  vector=10  bm25=10  returned=5"}
+{"time":"2026-05-19T10:58:00.784205+00:00","level":"INFO","msg":"run_pipeline: provider=openai  symptoms_len=336  chunks=5"}
+{"time":"2026-05-19T10:58:04.875995+00:00","level":"INFO","msg":"method=POST path=/api/v1/fhir/patient-context status=503 retrieval_ms=- llm_ms=- total_ms=4351 ip=127.0.0.1"}
