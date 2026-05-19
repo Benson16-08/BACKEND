@@ -28,7 +28,7 @@ from src.api.middleware.logging_middleware import LoggingMiddleware
 from src.core.logger import logger
 
 # ── Route imports ─────────────────────────────────────────────────────────────
-from src.api.routes import health, query
+from src.api.routes import health, query, fhir
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -103,6 +103,7 @@ def create_app() -> FastAPI:
     # ── Routers ───────────────────────────────────────────────────────────────
     app.include_router(health.router, prefix="/api/v1", tags=["Health"])
     app.include_router(query.router,  prefix="/api/v1", tags=["Diagnosis"])
+    app.include_router(fhir.router,   prefix="/api/v1", tags=["FHIR"])
 
     # ── Global exception handlers ─────────────────────────────────────────────
     @app.exception_handler(HTTPException)
