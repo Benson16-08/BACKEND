@@ -1,20 +1,9 @@
-"""
-src/api/main.py
-───────────────
-FastAPI application factory for MediAssist backend.
-
-Responsibilities:
-  - Creates the FastAPI app instance with metadata
-  - Registers CORS middleware (Jesca's React frontend, Role 5)
-  - Registers all route routers
-  - Registers global exception handlers
-  - Runs startup / shutdown lifecycle events
-  - Provides the Uvicorn entry point
-"""
+"""FastAPI application factory for MediAssist backend."""
 
 from __future__ import annotations
 
 from contextlib import asynccontextmanager
+from datetime import datetime, timezone
 from typing import AsyncGenerator
 
 from fastapi import FastAPI, Request
@@ -23,34 +12,22 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
 from src.core.config import settings
-from src.core.exceptions import InternalServerError
+from src.core.exceptions import InternalServerError, FHIRValidationError
 from src.api.middleware.logging_middleware import LoggingMiddleware
 from src.core.logger import logger
-
-# ── Route imports ─────────────────────────────────────────────────────────────
 from src.api.routes import health, query, fhir
 
 
-# ─────────────────────────────────────────────────────────────────────────────
-# Lifespan — startup & shutdown events
-# ─────────────────────────────────────────────────────────────────────────────
-
 @asynccontextmanager
 async def lifespan(app: FastAPI) -> AsyncGenerator[None, None]:
-    """
-    Code before `yield` runs at startup.
-    Code after `yield` runs at shutdown.
-    """
-    # ── Startup ───────────────────────────────────────────────────────────────
+    """Startup: load KB and build BM25. Shutdown: log closure."""
     logger.info("=" * 60)
     logger.info("MediAssist API starting up")
 
-    # Load knowledge base artefacts (Athuman, Role 1)
     from src.knowledge_base.kb_loader import kb
     kb.load()
 
-    # Build BM25 index
-    import src.retrieval.bm25_index  # noqa: F401 — triggers index build at startup
+    import src.retrieval.bm25_index  # noqa: F401
     logger.info(f"  LLM provider    : {settings.LLM_PROVIDER}")
     logger.info(f"  ChromaDB path   : {settings.CHROMA_DB_PATH}")
     logger.info(f"  Collection name : {settings.CHROMA_COLLECTION_NAME}")
@@ -61,13 +38,7 @@ async def lifespan(app: FastAPI) -> AsyncGenerator[None, None]:
 
     yield
 
-    # ── Shutdown ──────────────────────────────────────────────────────────────
     logger.info("MediAssist API shutting down")
-
-
-# ─────────────────────────────────────────────────────────────────────────────
-# App factory
-# ─────────────────────────────────────────────────────────────────────────────
 
 
 def create_app() -> FastAPI:
@@ -85,9 +56,6 @@ def create_app() -> FastAPI:
         openapi_url="/openapi.json",
     )
 
-    # ── CORS ──────────────────────────────────────────────────────────────────
-    # Allows Jesca's (Role 5) React frontend to call the API during development.
-    # In production, restrict to the deployed frontend domain.
     app.add_middleware(
         CORSMiddleware,
         allow_origins=settings.allowed_origins_list,
@@ -97,24 +65,20 @@ def create_app() -> FastAPI:
         expose_headers=["X-Retrieval-Ms", "X-LLM-Ms", "X-Total-Ms"],
     )
 
-    # ── Structured request logging ────────────────────────────────────────────
     app.add_middleware(LoggingMiddleware)
 
-    # ── Routers ───────────────────────────────────────────────────────────────
     app.include_router(health.router, prefix="/api/v1", tags=["Health"])
     app.include_router(query.router,  prefix="/api/v1", tags=["Diagnosis"])
-    app.include_router(fhir.router,   prefix="/api/v1", tags=["FHIR"])
+    app.include_router(fhir.router,   prefix="/api/v1", tags=["FHIR Bridge"])
 
-    # ── Global exception handlers ─────────────────────────────────────────────
     @app.exception_handler(HTTPException)
     async def http_exception_handler(
         request: Request, exc: HTTPException
     ) -> JSONResponse:
-        """Return structured JSON for all HTTPExceptions (including our custom ones)."""
+        """Return structured JSON for HTTPExceptions."""
         if isinstance(exc.detail, dict):
             return JSONResponse(status_code=exc.status_code, content=exc.detail)
 
-        from datetime import datetime, timezone
         return JSONResponse(
             status_code=exc.status_code,
             content={
@@ -129,7 +93,6 @@ def create_app() -> FastAPI:
         request: Request, exc: RequestValidationError
     ) -> JSONResponse:
         """Return structured 422 with field-level detail for Pydantic errors."""
-        from datetime import datetime, timezone
         errors = exc.errors()
         field = ".".join(str(e) for e in errors[0]["loc"]) if errors else "unknown"
         message = errors[0]["msg"] if errors else "Validation failed."
@@ -142,6 +105,26 @@ def create_app() -> FastAPI:
                 "timestamp": datetime.now(timezone.utc).isoformat(),
                 "details":   errors,
             },
+        )
+
+    @app.exception_handler(FHIRValidationError)
+    async def fhir_validation_handler(
+        request: Request, exc: FHIRValidationError
+    ) -> JSONResponse:
+        """Return FHIR OperationOutcome for FHIR validation errors."""
+        from src.schemas.errors import FHIROperationOutcome, FHIRIssue
+        outcome = FHIROperationOutcome(issue=[
+            FHIRIssue(
+                severity="error",
+                code=exc.detail.get("error", "invalid") if isinstance(exc.detail, dict) else "invalid",
+                diagnostics=exc.detail.get("message", str(exc.detail)) if isinstance(exc.detail, dict) else str(exc.detail),
+                expression=[exc.detail.get("field")] if isinstance(exc.detail, dict) and exc.detail.get("field") else None,
+            )
+        ])
+        return JSONResponse(
+            status_code=400,
+            content=outcome.model_dump(),
+            media_type="application/fhir+json",
         )
 
     @app.exception_handler(Exception)
@@ -158,18 +141,11 @@ def create_app() -> FastAPI:
     return app
 
 
-# ─────────────────────────────────────────────────────────────────────────────
-# Module-level app instance — used by uvicorn and tests
-# ─────────────────────────────────────────────────────────────────────────────
 app: FastAPI = create_app()
 
 
-# ─────────────────────────────────────────────────────────────────────────────
-# Direct run entry point
-# ─────────────────────────────────────────────────────────────────────────────
 if __name__ == "__main__":
     import uvicorn
-
     uvicorn.run(
         "src.api.main:app",
         host=settings.HOST,
