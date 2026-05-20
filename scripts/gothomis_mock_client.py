@@ -15,7 +15,7 @@ from datetime import date
 import requests
 
 
-API_BASE = "http://localhost:8001"
+API_BASE = "http://localhost:8000"
 FHIR_ENDPOINT = f"{API_BASE}/api/v1/fhir/patient-context"
 FHIR_HEALTH   = f"{API_BASE}/api/v1/fhir/health"
 TIMEOUT_SECS  = 90
