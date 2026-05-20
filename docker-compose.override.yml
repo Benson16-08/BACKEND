@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  api:
+    volumes:
+      - ./src:/app/src:rw
+      - ./scripts:/app/scripts:rw
+      - ./knowledge_base:/app/knowledge_base:ro
+    command: sh -c "uvicorn src.api.main:app --host ${HOST} --port ${PORT} --reload --log-level debug"
